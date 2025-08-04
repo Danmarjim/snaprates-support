@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapRates - Política de Privacidad</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white;
+            padding: 40px 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .language-selector {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .language-selector button {
+            background: #4f46e5;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+        
+        .language-selector button:hover {
+            background: #4338ca;
+            transform: translateY(-2px);
+        }
+        
+        .language-selector button.active {
+            background: #3730a3;
+            box-shadow: 0 4px 15px rgba(79, 70, 229, 0.4);
+        }
+        
+        .content {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        
+        .content h2 {
+            color: #4f46e5;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            border-bottom: 2px solid #4f46e5;
+            padding-bottom: 10px;
+        }
+        
+        .content h3 {
+            color: #555;
+            margin-bottom: 15px;
+            margin-top: 25px;
+            font-size: 1.3em;
+        }
+        
+        .content p {
+            margin-bottom: 15px;
+            color: #666;
+            line-height: 1.7;
+        }
+        
+        .content ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .content li {
+            margin-bottom: 8px;
+            color: #666;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            border-top: 1px solid #eee;
+            margin-top: 30px;
+        }
+        
+        .lang-content {
+            display: none;
+        }
+        
+        .lang-content.active {
+            display: block;
+        }
+        
+        .highlight-box {
+            background: #f8f9ff;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #4f46e5;
+            margin: 20px 0;
+        }
+        
+        .date-info {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #ffc107;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        
+        .privacy-point {
+            background: #d1ecf1;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #17a2b8;
+            margin: 15px 0;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .language-selector button {
+                padding: 8px 15px;
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>💱 SnapRates</h1>
+            <p>Política de Privacidad</p>
+        </div>
+        
+        <div class="language-selector">
+            <button onclick="switchLanguage('es')" class="active" id="btn-es">🇪🇸 Español</button>
+            <button onclick="switchLanguage('en')" id="btn-en">🇺🇸 English</button>
+        </div>
+        
+        <!-- CONTENIDO EN ESPAÑOL -->
+        <div id="content-es" class="lang-content active">
+            <div class="content">
+                <div class="date-info">
+                    <strong>Fecha de entrada en vigor:</strong> 4 de agosto de 2024<br>
+                    <strong>Última actualización:</strong> 4 de agosto de 2024
+                </div>
+                
+                <h2>1. Introducción</h2>
+                <p>En SnapRates, respetamos su privacidad y nos comprometemos a proteger su información personal. Esta Política de Privacidad explica cómo recopilamos, usamos, almacenamos y protegemos su información cuando usa nuestra aplicación.</p>
+                
+                <div class="privacy-point">
+                    <p><strong>📱 Información Importante:</strong> SnapRates está diseñada para proteger su privacidad. No vendemos, alquilamos ni compartimos su información personal con terceros para fines comerciales.</p>
+                </div>
+                
+                <h2>2. Información que Recopilamos</h2>
+                
+                <h3>2.1 Información que NO Recopilamos</h3>
+                <p>SnapRates está diseñada con privacidad en mente:</p>
+                <ul>
+                    <li>❌ No recopilamos información personal identificable</li>
+                    <li>❌ No accedemos a su ubicación geográfica</li>
+                    <li>❌ No recopilamos información financiera</li>
+                    <li>❌ No accedemos a sus contactos o fotos</li>
+                    <li>❌ No requerimos registro o cuenta de usuario</li>
+                </ul>
+                
+                <h3>2.2 Información que Sí Recopilamos</h3>
+                <p>Recopilamos únicamente información mínima necesaria para el funcionamiento de la app:</p>
+                <ul>
+                    <li>✅ Preferencias de configuración (monedas favoritas, tema de la app)</li>
+                    <li>✅ Datos de uso anónimos para mejorar el rendimiento</li>
+                    <li>✅ Información técnica básica (versión de iOS, modelo de dispositivo)</li>
+                </ul>
+                
+                <h2>3. Cómo Usamos su Información</h2>
+                <p>La información limitada que recopilamos se usa exclusivamente para:</p>
+                <ul>
+                    <li>Personalizar su experiencia en la aplicación</li>
+                    <li>Recordar sus configuraciones y preferencias</li>
+                    <li>Mejorar el rendimiento y estabilidad de la app</li>
+                    <li>Proporcionar soporte técnico cuando sea necesario</li>
+                </ul>
+                
+                <h2>4. Servicios de Terceros</h2>
+                
+                <h3>4.1 APIs de Tasas de Cambio</h3>
+                <p>SnapRates utiliza servicios externos para obtener tasas de cambio:</p>
+                <ul>
+                    <li><strong>ExchangeRate-API:</strong> Proveedor principal de datos de divisas</li>
+                    <li><strong>OpenExchangeRates:</strong> Proveedor alternativo de datos</li>
+                </ul>
+                <p>Estos servicios pueden tener sus propias políticas de privacidad que recomendamos revisar.</p>
+                
+                <h3>4.2 Servicios de Apple</h3>
+                <p>Como aplicación de iOS, SnapRates interactúa con servicios de Apple:</p>
+                <ul>
+                    <li>App Store para descargas y actualizaciones</li>
+                    <li>iCloud para sincronización de configuraciones (opcional)</li>
+                </ul>
+                
+                <h2>5. Almacenamiento de Datos</h2>
+                
+                <div class="highlight-box">
+                    <h3>🔒 Almacenamiento Local</h3>
+                    <p>Todos sus datos se almacenan localmente en su dispositivo. No mantenemos servidores que almacenen su información personal.</p>
+                </div>
+                
+                <ul>
+                    <li>Sus configuraciones se guardan en su dispositivo</li>
+                    <li>Las tasas de cambio se cachean temporalmente para mejor rendimiento</li>
+                    <li>No se transfieren datos personales a servidores externos</li>
+                </ul>
+                
+                <h2>6. Seguridad</h2>
+                <p>Implementamos medidas de seguridad para proteger su información:</p>
+                <ul>
+                    <li>Cifrado de datos sensibles en el dispositivo</li>
+                    <li>Comunicaciones seguras (HTTPS) con APIs externas</li>
+                    <li>Actualizaciones regulares de seguridad</li>
+                    <li>Prácticas de desarrollo seguro</li>
+                </ul>
+                
+                <h2>7. Sus Derechos</h2>
+                <p>Usted tiene derecho a:</p>
+                <ul>
+                    <li><strong>Acceso:</strong> Revisar qué información almacenamos (limitada a configuraciones locales)</li>
+                    <li><strong>Eliminación:</strong> Borrar todos los datos eliminando la aplicación</li>
+                    <li><strong>Corrección:</strong> Modificar sus configuraciones en cualquier momento</li>
+                    <li><strong>Portabilidad:</strong> Exportar sus configuraciones (función futura)</li>
+                </ul>
+                
+                <h2>8. Menores de Edad</h2>
+                <p>SnapRates es apta para usuarios de todas las edades. No recopilamos intencionalmente información personal de menores de 13 años. Si un padre o tutor descubre que su hijo ha proporcionado información personal, contáctenos para eliminarla.</p>
+                
+                <h2>9. Cambios en la Política</h2>
+                <p>Podemos actualizar esta Política de Privacidad ocasionalmente. Los cambios importantes se notificarán:</p>
+                <ul>
+                    <li>A través de una actualización de la aplicación</li>
+                    <li>En nuestro sitio web de soporte</li>
+                    <li>Mediante notificación en la app (para cambios significativos)</li>
+                </ul>
+                
+                <h2>10. Contacto</h2>
+                <p>Si tiene preguntas sobre esta Política de Privacidad:</p>
+                <div class="highlight-box">
+                    <p><strong>📧 Email:</strong> <a href="mailto:danmarjim@gmail.com?subject=Privacidad%20SnapRates" style="color: #4f46e5;">danmarjim@gmail.com</a></p>
+                    <p><strong>🌐 Soporte:</strong> <a href="support.html" style="color: #4f46e5;">https://danmarjim.github.io/snaprates-support/</a></p>
+                    <p><strong>⏰ Tiempo de respuesta:</strong> 24-48 horas</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- CONTENIDO EN INGLÉS -->
+        <div id="content-en" class="lang-content">
+            <div class="content">
+                <div class="date-info">
+                    <strong>Effective Date:</strong> August 4, 2024<br>
+                    <strong>Last Updated:</strong> August 4, 2024
+                </div>
+                
+                <h2>1. Introduction</h2>
+                <p>At SnapRates, we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, store, and protect your information when you use our application.</p>
+                
+                <div class="privacy-point">
+                    <p><strong>📱 Important Information:</strong> SnapRates is designed to protect your privacy. We do not sell, rent, or share your personal information with third parties for commercial purposes.</p>
+                </div>
+                
+                <h2>2. Information We Collect</h2>
+                
+                <h3>2.1 Information We Do NOT Collect</h3>
+                <p>SnapRates is designed with privacy in mind:</p>
+                <ul>
+                    <li>❌ We do not collect personally identifiable information</li>
+                    <li>❌ We do not access your geographic location</li>
+                    <li>❌ We do not collect financial information</li>
+                    <li>❌ We do not access your contacts or photos</li>
+                    <li>❌ We do not require registration or user account</li>
+                </ul>
+                
+                <h3>2.2 Information We DO Collect</h3>
+                <p>We collect only minimal information necessary for app functionality:</p>
+                <ul>
+                    <li>✅ Configuration preferences (favorite currencies, app theme)</li>
+                    <li>✅ Anonymous usage data to improve performance</li>
+                    <li>✅ Basic technical information (iOS version, device model)</li>
+                </ul>
+                
+                <h2>3. How We Use Your Information</h2>
+                <p>The limited information we collect is used exclusively to:</p>
+                <ul>
+                    <li>Personalize your app experience</li>
+                    <li>Remember your settings and preferences</li>
+                    <li>Improve app performance and stability</li>
+                    <li>Provide technical support when necessary</li>
+                </ul>
+                
+                <h2>4. Third-Party Services</h2>
+                
+                <h3>4.1 Exchange Rate APIs</h3>
+                <p>SnapRates uses external services to obtain exchange rates:</p>
+                <ul>
+                    <li><strong>ExchangeRate-API:</strong> Primary currency data provider</li>
+                    <li><strong>OpenExchangeRates:</strong> Alternative data provider</li>
+                </ul>
+                <p>These services may have their own privacy policies that we recommend reviewing.</p>
+                
+                <h3>4.2 Apple Services</h3>
+                <p>As an iOS application, SnapRates interacts with Apple services:</p>
+                <ul>
+                    <li>App Store for downloads and updates</li>
+                    <li>iCloud for settings synchronization (optional)</li>
+                </ul>
+                
+                <h2>5. Data Storage</h2>
+                
+                <div class="highlight-box">
+                    <h3>🔒 Local Storage</h3>
+                    <p>All your data is stored locally on your device. We do not maintain servers that store your personal information.</p>
+                </div>
+                
+                <ul>
+                    <li>Your settings are saved on your device</li>
+                    <li>Exchange rates are temporarily cached for better performance</li>
+                    <li>No personal data is transferred to external servers</li>
+                </ul>
+                
+                <h2>6. Security</h2>
+                <p>We implement security measures to protect your information:</p>
+                <ul>
+                    <li>Encryption of sensitive data on device</li>
+                    <li>Secure communications (HTTPS) with external APIs</li>
+                    <li>Regular security updates</li>
+                    <li>Secure development practices</li>
+                </ul>
+                
+                <h2>7. Your Rights</h2>
+                <p>You have the right to:</p>
+                <ul>
+                    <li><strong>Access:</strong> Review what information we store (limited to local settings)</li>
+                    <li><strong>Deletion:</strong> Delete all data by removing the application</li>
+                    <li><strong>Correction:</strong> Modify your settings at any time</li>
+                    <li><strong>Portability:</strong> Export your settings (future feature)</li>
+                </ul>
+                
+                <h2>8. Children's Privacy</h2>
+                <p>SnapRates is suitable for users of all ages. We do not knowingly collect personal information from children under 13. If a parent or guardian discovers that their child has provided personal information, please contact us to have it removed.</p>
+                
+                <h2>9. Policy Changes</h2>
+                <p>We may update this Privacy Policy occasionally. Important changes will be notified:</p>
+                <ul>
+                    <li>Through an app update</li>
+                    <li>On our support website</li>
+                    <li>Via in-app notification (for significant changes)</li>
+                </ul>
+                
+                <h2>10. Contact</h2>
+                <p>If you have questions about this Privacy Policy:</p>
+                <div class="highlight-box">
+                    <p><strong>📧 Email:</strong> <a href="mailto:danmarjim@gmail.com?subject=SnapRates%20Privacy" style="color: #4f46e5;">danmarjim@gmail.com</a></p>
+                    <p><strong>🌐 Support:</strong> <a href="support.html" style="color: #4f46e5;">https://danmarjim.github.io/snaprates-support/</a></p>
+                    <p><strong>⏰ Response time:</strong> 24-48 hours</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2024 SnapRates. All rights reserved.</p>
+            <p>Version 1.0.0 | Last updated: August 2024</p>
+        </div>
+    </div>
+    
+    <script>
+        function switchLanguage(lang) {
+            // Ocultar todos los contenidos
+            document.querySelectorAll('.lang-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            
+            // Remover clase active de todos los botones
+            document.querySelectorAll('.language-selector button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Mostrar contenido seleccionado
+            document.getElementById('content-' + lang).classList.add('active');
+            document.getElementById('btn-' + lang).classList.add('active');
+        }
+    </script>
+</body>
+</html>
